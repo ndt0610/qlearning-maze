@@ -2,6 +2,11 @@
 
 A reproducible tabular reinforcement-learning demo on a fixed 10×10 maze. The app trains a Q-table, plots episode rewards, and shows the greedy route learned from the final table.
 
+## Preview: learned route and reward curve
+
+![Seeded Q-learning run with the greedy 24-step route from start to goal and episode reward over 2,000 training episodes.](docs/images/qlearning-maze-learning.png)
+
+*This capture uses the default seed (42); it reached the goal in 1,998 of 2,000 episodes on this fixed maze.*
 ## Learning loop
 
 ~~~mermaid
